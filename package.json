@@ -1,0 +1,23 @@
+{
+    "name": "quero-um-pedacinho-monorepo",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "lint": "turbo run lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "supabase:start": "supabase start",
+        "supabase:stop": "supabase stop",
+        "supabase:gen-types": "supabase gen types typescript --local > packages/shared/src/database.types.ts"
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "tsx": "^4.21.0",
+        "turbo": "^1.12.4"
+    }
+}
