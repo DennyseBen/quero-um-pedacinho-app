@@ -1,7 +1,6 @@
 {
-    "name": "pedacinho-app",
+    "name": "pedacin-mobile-app",
     "buildCommand": "cd apps/mobile && npx expo export -p web",
     "outputDirectory": "apps/mobile/dist",
-    "installCommand": "npm install",
-    "framework": "create-react-app"
+    "installCommand": "npm install"
 }

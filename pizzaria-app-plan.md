@@ -18,13 +18,13 @@ Criar um **app mobile nativo** (Expo/React Native) que complementa o sistema web
 - [x] Task 4: Inicializar Expo (Mobile App) em `apps/mobile`
 - [x] Task 5: Shared package com tipagens e Supabase client
 - [x] Task 5.1: Branding aplicado (cores #E74011/#FFDD00, slogans, categorias)
-- [ ] **Task 8: App Mobile — FOCO PRINCIPAL**
-  - [ ] 8.1: Setup navegação (Expo Router / React Navigation)
-  - [ ] 8.2: Tela do Cardápio (filtro por categoria, busca, fotos HD)
-  - [ ] 8.3: Tela de detalhe do produto (seleção fatia/tamanho, adicionar extras)
-  - [ ] 8.4: Carrinho + Resumo do pedido
-  - [ ] 8.5: Checkout (Drive-Thru ou Balcão) + Geração de senha
-  - [ ] 8.6: Acompanhamento de pedido (consulta por senha)
+- [x] **Task 8: App Mobile — FOCO PRINCIPAL**
+  - [x] 8.1: Setup navegação (Expo Router / React Navigation)
+  - [x] 8.2: Tela do Cardápio (filtro por categoria, busca, imagens HD)
+  - [x] 8.3: Adição simples na sacola (detalhes p/ próxima versão)
+  - [x] 8.4: Carrinho + Resumo do pedido (Integrado ao Supabase)
+  - [x] 8.5: Checkout (Balcão) + Geração de senha (Inserção via RLS p/ usuário anônimo)
+  - [x] 8.6: Acompanhamento de pedido (Consulta por senha + Supabase Realtime via Channel)
   - [ ] 8.7: Programa de fidelidade (cashback)
 - [ ] Task 7: Admin Web (Dashboard + Kanban) — secundário
 - [ ] Task 6: Stripe Payments (Edge Functions)

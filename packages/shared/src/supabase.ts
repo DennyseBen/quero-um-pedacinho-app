@@ -1,10 +1,9 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
-import type { Database } from './database.types';
 
-export type TypedSupabaseClient = SupabaseClient<Database>;
+export type TypedSupabaseClient = SupabaseClient;
 
 export function createSupabaseClient(url: string, anonKey: string): TypedSupabaseClient {
-    return createClient<Database>(url, anonKey, {
+    return createClient(url, anonKey, {
         auth: {
             autoRefreshToken: true,
             persistSession: true,
@@ -18,7 +17,7 @@ export function createSupabaseClient(url: string, anonKey: string): TypedSupabas
 }
 
 export function createSupabaseAdmin(url: string, serviceRoleKey: string): TypedSupabaseClient {
-    return createClient<Database>(url, serviceRoleKey, {
+    return createClient(url, serviceRoleKey, {
         auth: {
             autoRefreshToken: false,
             persistSession: false,
