@@ -1,5 +1,6 @@
 {
     "name": "pedacin-mobile-app",
+    "framework": null,
     "buildCommand": "cd apps/mobile && npx expo export -p web",
     "outputDirectory": "apps/mobile/dist",
     "installCommand": "npm install"
