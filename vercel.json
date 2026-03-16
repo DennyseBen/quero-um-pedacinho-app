@@ -3,5 +3,8 @@
     "framework": null,
     "buildCommand": "cd apps/mobile && npx expo export -p web",
     "outputDirectory": "apps/mobile/dist",
-    "installCommand": "npm install"
+    "installCommand": "npm install",
+    "rewrites": [
+        { "source": "/((?!_expo|assets|favicon\\.ico).*)", "destination": "/index.html" }
+    ]
 }
