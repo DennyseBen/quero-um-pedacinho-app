@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Quero Um Pedacinho",
+    "slug": "quero-um-pedacinho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "pedacinho",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E74011"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.queroumpedacinho.app"
+    },
+    "android": {
+      "package": "com.queroumpedacinho.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E74011",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "Quero Um Pedacinho",
+      "shortName": "Pedacinho",
+      "description": "Pizzaria Express • Drive-Thru & Balcão • Marabá/PA",
+      "themeColor": "#E74011",
+      "backgroundColor": "#F3EDE4",
+      "lang": "pt-BR",
+      "scope": "/",
+      "startUrl": "/"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}
