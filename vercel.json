@@ -1,10 +1,7 @@
 {
     "name": "pedacin-mobile-app",
     "framework": null,
-    "buildCommand": "cd apps/mobile && npx expo export -p web",
-    "outputDirectory": "apps/mobile/dist",
-    "installCommand": "npm install",
-    "rewrites": [
-        { "source": "/((?!_expo|assets|favicon\\.ico).*)", "destination": "/index.html" }
-    ]
+    "buildCommand": "cd apps/web && npm run build",
+    "outputDirectory": "apps/web/out",
+    "installCommand": "npm install"
 }
